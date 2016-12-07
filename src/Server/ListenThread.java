@@ -4,6 +4,11 @@ import java.io.IOException;
 import java.net.ServerSocket;
 import java.net.Socket;
 
+/**
+ * This thread is used to listen at the TCP port to accept a request from a client.
+ * @author Ethan
+ *
+ */
 public class ListenThread extends Thread{
 	private AuctionServer as;
 	private ServerSocket serverSocket;
