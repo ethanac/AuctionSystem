@@ -9,6 +9,11 @@ import javax.xml.ws.Service;
 
 import Server.AuctionServerInterface;
 
+/**
+ * Client used for web service (JAX-ws)
+ * @author Ethan
+ *
+ */
 public class RunClient {
 	public static void menuBeforeReg(){
 		System.out.println("1. Register \n2. Quit");
