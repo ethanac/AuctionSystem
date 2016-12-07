@@ -4,7 +4,12 @@ import java.util.*;
 import javax.mail.*;
 import javax.mail.internet.*;
 
-
+/**
+ * Notify clients by sending an e-mail.
+ * This feature may not be used.
+ * @author Ethan
+ *
+ */
 public class mailTest {
 	public static void main(String [] args) {    
 		final String username = "haoz86@gmail.com";
