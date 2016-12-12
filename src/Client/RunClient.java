@@ -44,9 +44,9 @@ public class RunClient {
 					userInput = sc.next();
 					int choice = Integer.parseInt(userInput);
 					if(choice == 1){
-						System.out.println("Please enter your name: ");
+						System.out.println("Please enter your email address (format: abc@def.com): ");
 						userInput = sc.next();
-						System.out.println("Your name is " + userInput);
+						System.out.println("Your email address is " + userInput);
 						String msg = server.register(userInput);
 						if(msg != null && msg.contains("Your id is")){
 							clientId = Integer.parseInt(msg.split("#")[1]);
